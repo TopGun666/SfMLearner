@@ -13,7 +13,7 @@ class SfMLearner(object):
     def __init__(self):
         pass
     
-def build_train_graph(self):
+    def build_train_graph(self):
         opt = self.opt
         loader = DataLoader(opt.dataset_dir,
                             opt.batch_size,
